@@ -1,0 +1,232 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 10px;
+}
+.sections{
+	display: flex;
+	width: 100%;
+}
+.left-sidebar{
+	background-color: #1b4d32;
+	width: 3.5%;
+	height: 100vh;
+}
+.main-content{
+	width: 76%;
+}
+.right-sidebar{
+	width: 20%;
+}
+
+/*left-sidebar*/
+.left-sidebar .image-logo{
+	background-color: #dcdcdc;
+}
+.left-sidebar .image-logo img{
+	width: 100%;
+	padding: .3rem 0;
+}
+.left-sidebar .icon-rows-inside .col1{
+	padding: .8rem;
+	text-align: center;
+}
+.left-sidebar .icon-rows-inside img{
+	width: 70%;
+	border-radius: 100%;
+}
+.left-sidebar .icon-rows{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 555px;
+}
+.left-sidebar .icon-rows .icon-rows-inside{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	color: white;
+}
+.left-sidebar .icon-rows .icon-rows-inside .col i{
+	font-size: 2.5rem;
+	padding: .5rem 1.2rem;
+}
+.left-sidebar .icon-rows .icon-rows-inside .active{
+	color: #1b4d32;
+	background-color: white;
+}
+.left-sidebar .icon-rows .col-2 i{
+	color: white;
+	font-size: 2.5rem;
+	padding: .5rem 1.2rem;
+}
+
+
+/*----Main Content-----*/
+.main-content .main-header{
+	display: flex;
+	justify-content: space-between;
+	padding: 1.8rem 0;
+}
+.main-content .container{
+	width: 96%;
+	margin: 0 auto;
+}
+.main-content .main-header h1{
+	color: #333;
+	font-size: 2.5rem;
+}
+.main-content .main-header i{
+	color: #2d3b45;
+	font-size: 2rem;
+}
+.main-content .rows{
+	display: flex;
+	flex-direction: column;
+}
+.main-content .columns1{
+	padding-top: 2rem;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.main-content .columns2{
+	padding-top: 2rem;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.main-content .cols{
+	-webkit-box-shadow: 1px 1px 6px 1px rgba(209,209,209,1);
+	-moz-box-shadow: 1px 1px 6px 1px rgba(209,209,209,1);
+	box-shadow: 1px 1px 6px 1px rgba(209,209,209,1);
+	width: 25%;
+	margin-right: 50px;
+}
+
+.main-content .col-1 .row-img{
+	background-color: #226570;
+	height: 13rem;
+}
+.main-content .col-2 .row-img{
+	background-color: #626e7b;
+	height: 13rem;
+}
+.main-content .col-3 .row-img{
+	background-color: #0076b8;
+	height: 13rem;
+}
+.main-content .col-4 .row-img{
+	background-color: #e1185c;
+	height: 13rem;
+}
+.main-content .col-5 .row-img{
+	background-color: #d41e00;
+	height: 13rem;
+}
+
+.main-content .cols .row-img i{
+	color: white;
+	font-size: 2rem;
+	float: right;
+	padding: 2rem;
+}
+
+
+.main-content .cols .row-text{
+	padding: 1.3rem;
+	width: 90%;
+	margin: 0 auto;
+}
+.main-content .cols .icon-columns{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+	padding-top: 1rem;
+}
+
+.main-content .col-1 h2{
+	color: #226570;
+}
+.main-content .col-2 h2{
+	color: #626e7b;
+}
+.main-content .col-3 h2{
+	color: #0076b8;
+}
+.main-content .col-4 h2{
+	color: #e1185c;
+}
+.main-content .col-5 h2{
+	color: #d41e00;
+}
+
+.main-content .cols h1{
+	padding-top: .7rem;
+	color: #707070;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+.main-content .cols p{
+	font-size: 1.2rem;
+	color: #707070;
+}
+.main-content .cols i{
+	color: #707070;
+}
+
+/*----right side bar----*/
+.right-sidebar .main-header{
+	margin-top: 3rem;
+}
+.right-sidebar .container{
+	width: 90%;
+	margin: 0 auto;
+}
+.right-sidebar .main-title{
+	padding: 1rem 0;
+}
+.right-sidebar .main-title h1{
+	font-size: 1.5rem;
+}
+
+
+.right-sidebar .columns .row{
+	display: flex;
+	flex-direction: column;
+}
+.right-sidebar .row .inside-cols{
+	display: flex;
+	flex-direction: column;
+	padding: .5rem;
+}
+.right-sidebar .row .inside-cols .row{
+	display: flex;
+	flex-direction: row;
+	color: #225238;
+}
+.right-sidebar .row .inside-cols .row-text{
+	margin-left: 2.2rem;
+	font-size: 1.3rem;
+	color: #919ba4;
+}
+
+
+.right-sidebar .row .inside-cols .row .col-1{
+	width: 10%;
+	font-size: 1.5rem;
+}
+.right-sidebar .row .inside-cols .row .col-2{
+	width: 90%;
+	font-size: 1.5rem;
+}
+.right-sidebar .row .inside-cols .row .col-3{
+	font-size: 1.5rem;
+	color: black;
+}
